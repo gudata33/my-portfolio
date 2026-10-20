@@ -73,15 +73,24 @@ function App() {
         <h2 className="text-3xl font-bold mb-10 text-center">Featured Projects</h2>
         <div className="grid md:grid-cols-2 gap-8">
           
-          {/* Project 1: RRS */}
-          <div className="border border-gray-200 dark:border-gray-700 rounded-xl p-6 hover:shadow-lg transition">
+                    {/* Project 1: RRS */}
+          <div className="border border-gray-200 dark:border-gray-700 rounded-xl p-6 hover:shadow-lg transition flex flex-col h-full md:col-span-2">
             <h3 className="text-xl font-bold mb-2">Refugee & Return Service (RRS) System</h3>
-            <p className="text-gray-600 dark:text-gray-400 mb-4">
-              A comprehensive system to manage refugee and returnee data, streamlining registration and case management processes.
+            
+            {/* ADD THE SCREENSHOT HERE */}
+            <img src="/rrs-dashboard.png" alt="RRS Dashboard" className="w-full h-64 object-cover rounded-lg mb-4 border border-gray-200 dark:border-gray-700" />
+            
+            <p className="text-gray-600 dark:text-gray-400 mb-4 flex-grow">
+              A comprehensive enterprise system built for the Ethiopian Immigration Services to manage refugee and returnee data, featuring complex data visualization and reporting.
             </p>
             <div className="flex gap-2 text-sm text-blue-600 dark:text-blue-400 font-semibold mb-4">
               <span>React</span> • <span>TypeScript</span> • <span>Node.js</span>
             </div>
+            
+            {/* Link to the live login portal */}
+            <a href="YOUR_RRS_VERCEL_LINK" target="_blank" rel="noreferrer" className="text-blue-600 hover:underline font-bold text-sm mt-auto">
+              🔒 View Live Login Portal (Restricted Access)
+            </a>
           </div>
 
           {/* Project 2: Queue Management */}
