@@ -104,7 +104,7 @@ function App() {
             <div className="flex gap-2 text-sm text-blue-600 dark:text-blue-400 font-semibold mb-4">
               <span>React</span> • <span>Tailwind CSS</span> • <span>API Integration</span>
             </div>
-            <a href="#" target="_blank" rel="noreferrer" className="text-blue-600 hover:underline font-bold text-sm">
+            <a href="https://react-ecommerce-psi-jet.vercel.app/" target="_blank" rel="noreferrer" className="text-blue-600 hover:underline font-bold text-sm">
               View Live Demo →
             </a>
           </div>
@@ -117,8 +117,8 @@ function App() {
         <p className="mb-4">Let's connect!</p>
         <div className="flex justify-center gap-4">
           <a href="mailto:gudataamanu12@gmail.com" className="text-blue-500 hover:underline">Email</a>
-          <a href="#" target="_blank" rel="noreferrer" className="text-blue-500 hover:underline">LinkedIn</a>
-          <a href="#" target="_blank" rel="noreferrer" className="text-blue-500 hover:underline">GitHub</a>
+          <a href="www.linkedin.com/in/gudeta-edossa-3474b2439" target="_blank" rel="noreferrer" className="text-blue-500 hover:underline">LinkedIn</a>
+          <a href="https://github.com/gudata33" target="_blank" rel="noreferrer" className="text-blue-500 hover:underline">GitHub</a>
         </div>
         <p className="mt-8 text-sm text-gray-500">© 2026 Gudeta Amenu Edossa</p>
       </footer>
