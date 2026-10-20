@@ -117,7 +117,7 @@ function App() {
         <p className="mb-4">Let's connect!</p>
         <div className="flex justify-center gap-4">
           <a href="mailto:gudataamanu12@gmail.com" className="text-blue-500 hover:underline">Email</a>
-          <a href="www.linkedin.com/in/gudeta-edossa-3474b2439" target="_blank" rel="noreferrer" className="text-blue-500 hover:underline">LinkedIn</a>
+          <a href="https://www.linkedin.com/in/gudeta-edossa-3474b2439" target="_blank" rel="noreferrer" className="text-blue-500 hover:underline font-medium">LinkedIn</a>
           <a href="https://github.com/gudata33" target="_blank" rel="noreferrer" className="text-blue-500 hover:underline">GitHub</a>
         </div>
         <p className="mt-8 text-sm text-gray-500">© 2026 Gudeta Amenu Edossa</p>
