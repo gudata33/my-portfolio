@@ -68,47 +68,55 @@ function App() {
         </div>
       </section>
 
-      {/* Projects Section */}
+            {/* Projects Section */}
       <section id="projects" className="py-20 px-4 max-w-5xl mx-auto">
         <h2 className="text-3xl font-bold mb-10 text-center">Featured Projects</h2>
         <div className="grid md:grid-cols-2 gap-8">
           
-                    {/* Project 1: RRS */}
+          {/* Project 1: RRS */}
           <div className="border border-gray-200 dark:border-gray-700 rounded-xl p-6 hover:shadow-lg transition flex flex-col h-full md:col-span-2">
             <h3 className="text-xl font-bold mb-2">Refugee & Return Service (RRS) System</h3>
-            
-            {/* ADD THE SCREENSHOT HERE */}
-            <img src="/rrs-dashboard.png" alt="RRS Dashboard" className="w-full h-64 object-cover rounded-lg mb-4 border border-gray-200 dark:border-gray-700" />
-            
-            <p className="text-gray-600 dark:text-gray-400 mb-4 flex-grow">
-              A comprehensive enterprise system built for the Ethiopian Immigration Services to manage refugee and returnee data, featuring complex data visualization and reporting.
+            <p className="text-gray-600 dark:text-gray-400 mb-4">
+              A comprehensive enterprise system built for the Ethiopian Immigration Services to manage refugee and returnee data, featuring complex data visualization and reporting for over 55,000 records.
             </p>
             <div className="flex gap-2 text-sm text-blue-600 dark:text-blue-400 font-semibold mb-4">
               <span>React</span> • <span>TypeScript</span> • <span>Node.js</span>
             </div>
             
-            {/* Link to the live login portal */}
-            <a href="YOUR_RRS_VERCEL_LINK" target="_blank" rel="noreferrer" className="text-blue-600 hover:underline font-bold text-sm mt-auto">
-              🔒 View Live Login Portal (Restricted Access)
+            {/* RRS Screenshot */}
+            <img src="/rrs-dashboard.png" alt="RRS Dashboard" className="w-full rounded-lg mb-4 border border-gray-200 dark:border-gray-700" />
+            
+            <a href="YOUR_RRS_VERCEL_LINK_HERE" target="_blank" rel="noreferrer" className="text-blue-600 hover:underline font-bold text-sm mt-auto">
+              🔒 View Live Login Portal (Restricted Access) →
             </a>
           </div>
 
           {/* Project 2: Queue Management */}
-          <div className="border border-gray-200 dark:border-gray-700 rounded-xl p-6 hover:shadow-lg transition">
-            <h3 className="text-xl font-bold mb-2">Queue Management System</h3>
+          <div className="border border-gray-200 dark:border-gray-700 rounded-xl p-6 hover:shadow-lg transition flex flex-col h-full md:col-span-2">
+            <h3 className="text-xl font-bold mb-2">ICS Queue Management System (QMS)</h3>
             <p className="text-gray-600 dark:text-gray-400 mb-4">
-              A solution to improve service efficiency, reduce wait times, and enhance user experience for citizens accessing immigration services.
+              A real-time kiosk and administration portal deployed to improve service efficiency, reduce wait times, and enhance the user experience for citizens accessing immigration services across multiple zones.
             </p>
             <div className="flex gap-2 text-sm text-blue-600 dark:text-blue-400 font-semibold mb-4">
               <span>React</span> • <span>TypeScript</span> • <span>Node.js</span>
             </div>
+            
+            {/* QMS Screenshots Side-by-Side */}
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-4">
+              <img src="/icsqmskiosk.PNG" alt="QMS Kiosk" className="w-full rounded-lg border border-gray-200 dark:border-gray-700" />
+              <img src="/icsqmsadmin.PNG" alt="QMS Admin Portal" className="w-full rounded-lg border border-gray-200 dark:border-gray-700" />
+            </div>
+
+            <a href="YOUR_QMS_VERCEL_LINK_HERE" target="_blank" rel="noreferrer" className="text-blue-600 hover:underline font-bold text-sm mt-auto">
+              🔒 View Live Portal (Restricted Access) →
+            </a>
           </div>
 
           {/* Project 3: E-Commerce */}
-          <div className="border border-gray-200 dark:border-gray-700 rounded-xl p-6 hover:shadow-lg transition md:col-span-2">
+          <div className="border border-gray-200 dark:border-gray-700 rounded-xl p-6 hover:shadow-lg transition md:col-span-2 flex flex-col">
             <h3 className="text-xl font-bold mb-2">React E-Commerce Storefront</h3>
             <p className="text-gray-600 dark:text-gray-400 mb-4">
-              A fully functional storefront fetching data from the FakeStoreAPI. Features include category filtering, a slide-out cart drawer, and real-time price calculations using React state.
+              A fully functional storefront fetching data from the FakeStoreAPI. Features include search, category filtering, a slide-out cart drawer, checkout modal, and real-time price calculations using React state.
             </p>
             <div className="flex gap-2 text-sm text-blue-600 dark:text-blue-400 font-semibold mb-4">
               <span>React</span> • <span>Tailwind CSS</span> • <span>API Integration</span>
